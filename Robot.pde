@@ -61,9 +61,11 @@ Robot(float x, float y){
         
         }
       }else{
+        
+      }
+    }else{
         if (direction == RIGHT)speed=2f;
         if (direction == LEFT)speed=-2f;
-      }
     }
   }
   
